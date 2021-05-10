@@ -1,0 +1,44 @@
+.all-content {
+    width: 60%;
+    margin: 10% auto;
+}
+.responsive-design {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.easy-customize {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.fast-and-reliable {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+/*.logo-phone-blok {
+    background-color: #2a69a6;
+    border-radius: 50% 50%;    
+    margin: 0 auto; 
+    width: 65px;
+    height: 65px;
+}*/
+.logo-phone-back {
+    background-color: #2a69a6;
+    border-radius: 50% 50%;    
+    margin: 0 auto; 
+    width: 65px;
+    height: 65px;
+    background-image: url(./image/css_sprites.png);
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.logo {     
+    background-position-y: -86px;
+    background-position-x: -33px;
+}
+.logo-phone-back:hover {
+    background-color: white;
+    background-position-y: -86px;
+    background-position-x: 7px;
+}
